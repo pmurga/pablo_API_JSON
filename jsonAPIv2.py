@@ -9,9 +9,10 @@ import os.path
 import json
 from pprint import pprint
 
-
 app = Flask(__name__)
 path = '/tmp/jsons/'
+_username_ = 'pablo'
+_password_ = 'tucuman'
 
 @app.errorhandler(405)
 def id_exists(error):
@@ -38,8 +39,8 @@ def unauthorized():
 
 @auth.get_password
 def get_password(username):
-    if username == 'pablo':
-        return 'tucuman'
+    if username == _username_:
+        return _password_
     return None
 
 @app.route('/json/<int:task_id>', methods=['GET'])
