@@ -7,7 +7,7 @@ Source:
 
 - POST
 
-id must be integer
+ID MUST BE AN INTEGER
 
 Example:
 
@@ -21,7 +21,7 @@ curl -u $APIUSER:$APIPASS -i -H "Content-Type: application/json" -X POST -d '{"i
 
 - GET 
 
-To see all the files in db
+To see all files in db / path
 
 curl -u $APIUSER:$APIPASS -i $API1/json
 
