@@ -10,7 +10,7 @@ import json
 from pprint import pprint
 
 app = Flask(__name__)
-path = '/efs/JSONdb'
+path = '/efs/JSONdb/'
 _username_ = 'pablo'
 _password_ = 'tucuman'
 
