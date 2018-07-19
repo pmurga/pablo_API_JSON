@@ -27,11 +27,11 @@ curl -u $APIUSER:$APIPASS -i -H "Content-Type: application/json" -X POST -d '{"i
 
 To see all files in db / path
 
-curl -u $APIUSER:$APIPASS -i $API1/json
+curl -u $APIUSER:$APIPASS -i $APIURL/json
 
 To see a file from id (3 being id in example)
 
-curl -u $APIUSER:$APIPASS -i $API1/json/3
+curl -u $APIUSER:$APIPASS -i $APIURL/json/3
 
 ---
 
