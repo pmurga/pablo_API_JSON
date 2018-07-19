@@ -39,7 +39,7 @@ curl -u $APIUSER:$APIPASS -i $APIURL/json/3
 
 Must include title, description and done status in JSON body and id in URL (1 being id in example)
 
-curl -u $APIUSER:$APIPASS -i -H "Content-Type: application/json" -X PUT -d '{"title":"Estudiar","done":true,"description":"Salve la materia"}' $APIURL/1
+curl -u $APIUSER:$APIPASS -i -H "Content-Type: application/json" -X PUT -d '{"title":"Estudiar","done":true,"description":"Salve la materia"}' $APIURL/json/1
 
 ---
 
